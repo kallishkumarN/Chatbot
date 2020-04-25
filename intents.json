@@ -1,0 +1,42 @@
+{"intents":[
+         {"tag":"greeting",
+          "patterns":["hi","How are you","Hello","Hey","Hai"],
+           "responses":["Hi,How are you?","Hey, How are you?","Hello, How are you?"],
+           "context_set":""},
+            
+          {"tag":"goodbye",
+          "patterns":["Bye","see you later","good bye"],
+           "responses":["BYE","see you later","Take Care"]
+           },
+            
+
+            {"tag":"thanks",
+             "patterns":["thankyou","thanks","thats helpful"],
+             "responses":["Youre Welcome","My pleasure","Thanks"]
+           },
+           
+               
+             {"tag":"positive_health",
+          "patterns":["feeling great","better","good","fine"],
+           "responses":["Okay","Im your Quarantine Support"]
+           },
+
+             {"tag":"negative_health",
+          "patterns":["Feeling bad","uncomfortable","uneasy","feverish","tired","dull","dizzy"],
+           "responses":["Don't Worry! I will take care of you","I'm here to entertain you","Don't worry, you will be alright"]
+           },
+	    {"tag":"bored",
+          "patterns":["im bored","bored","bore","im feeling bored"],
+           "responses":["Tell me what you are interested in?","Feel free to talk to me","you need jokes or riddle from me?"]
+           },
+	    {"tag":"jokes",
+          "patterns":["Tell me joke","joke","comedy","funny"],
+           "responses":["Why did the physics teacher broke up with biology teacher? Becaouse there was no chemistry","What type shoes does frog wear? Open Toad","Need cheering up? Start a fight with somebody when they have the hiccoughs!","It has four legs and it can fly, what is it? Two birds.","What do you get when you put a vest on an alligator? An Invsetigator", "Why was the cheetah bad in hide and seek? It is always spotted!!","Why don't shrimp share its shell? Because it is shellfish(Selfish)"," Is this pool safe for diving? It deep ends(depends)","How many apples grow on a tree? All of them."]
+           },
+	    {"tag":"riddle",
+          "patterns":["Tell me riddle","riddle","word game","tell some riddle"],
+           "responses":["What has a neck but no head? A bottle","What goes up but never comes down? Your age","What has lot of keys, but can't open a door? A piano","What is harder to catch the faster you run? Your Breathe", "What room do ghosts avoid? The Living Room","What is more useful when it is broken? An Egg","How do you spell candy in 2 letters?c and y c(and)y.","What runs around the whole yard without moving?A Fence","What goes up when the rain comes down?An Umbrella", "What did the baseball glove say to the ball?Catch you later","What can you catch but never throw?A cold","How can you make seven even? Remove the letter 'S'.","What did the bee say to the flower? Hello, honey!","Can February March? A. No, but April May","When will water stop running down hill? When it reaches the bottom."]
+           }
+
+]
+}
